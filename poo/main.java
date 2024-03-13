@@ -25,5 +25,8 @@ public class main {
         circulo.raio = 2;
         System.out.println( circulo.calcularArea());
 
+        Dado dado = new Dado();
+        System.out.println(dado.rolarDado());
+
     }
 }
