@@ -21,6 +21,9 @@ public class main {
         lampada.ligarLampada();
         lampada.desligarLampada();
 
+        Circulo circulo = new Circulo();
+        circulo.raio = 2;
+        System.out.println( circulo.calcularArea());
 
     }
 }
