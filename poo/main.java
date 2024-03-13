@@ -17,6 +17,9 @@ public class main {
         pessoa.sobrenome = "da Silva Alexandre";
         System.out.println(pessoa.nomeCompleto());
 
+        Lampada lampada = new Lampada();
+        lampada.ligarLampada();
+        lampada.desligarLampada();
 
 
     }
